@@ -28,3 +28,5 @@
   untracked = cyan
 [merge]
 	ff = no
+[alias]
+	up = pull --rebase --autostash

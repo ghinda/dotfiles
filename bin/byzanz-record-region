@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Delay before starting
-DELAY=10
+DELAY=5
 
 # Sound notification to let one know when recording is about to start (and ends)
 beep() {
@@ -12,8 +12,8 @@ beep() {
 if [ $# -gt 0 ]; then
     D="--duration=$@"
 else
-    echo Default recording duration 10s to /tmp/recorded.gif
-    D="--duration=10 /tmp/recorded.gif"
+    echo Default recording duration 10s to ~/Pictures/recorded.gif
+    D="--duration=10 ${HOME}/Pictures/recorded.gif"
 fi
 
 # xrectsel from https://github.com/lolilolicon/FFcast2/blob/master/xrectsel.c
