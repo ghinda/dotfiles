@@ -27,6 +27,6 @@
   changed = green
   untracked = cyan
 [merge]
-	ff = no
+  ff = no
 [alias]
-	up = pull --rebase --autostash
+  up = pull --rebase --autostash
